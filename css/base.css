@@ -1,0 +1,17 @@
+:root {
+    --branco: #FFF;
+    --cinza-claro: #F5F5F5;
+    --cinza-placeholder: #A2A2A2;
+    --cinza-borda: #C8C8C8;
+    --cor-texto-secao: #464646;
+    --azul-botao: #2A7AE4;
+    --azul-rodape: #EAF2FD;
+    --preto-suave: #464646;
+
+    --fonte-padrao: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: var(--cinza-claro);
+    font-family: var(--fonte-padrao);
+}
