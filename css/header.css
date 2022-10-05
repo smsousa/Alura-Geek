@@ -3,8 +3,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 115px;
-    width: 100vw;
+    padding: 2rem 0;
 }
 
 .cabecalho__container {

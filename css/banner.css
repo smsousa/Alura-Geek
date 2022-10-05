@@ -1,6 +1,6 @@
 .banner {
     background: url("../img/banner-image.png") center / cover no-repeat;
-    height: 352px;
+    height: 50vh;
     color: var(--branco);
     position: relative;
 }
@@ -24,12 +24,11 @@
 }
 
 .banner__botao {
+    display: inline-block;
+    font-family: var(--fonte-padrao);
     color: var(--branco);
     background-color: var(--azul-botao);
-    width: 130px;
-    border: none;
-    padding: 16px;
-    font-family: var(--fonte-padrao);
-    font-weight: 400;
-    cursor: pointer;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
 }
