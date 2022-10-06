@@ -1,15 +1,14 @@
 .banner {
     background: url("../img/banner-image.png") center / cover no-repeat;
-    height: 50vh;
+    height: 352px;
     color: var(--branco);
     position: relative;
 }
 
 .banner__container {
     position: absolute;
-    top: 150px;
-    left: 152px;
-    
+    top: 45%;
+    left: 10%;
 }
 
 .banner__titulo {
@@ -31,4 +30,17 @@
     padding: 1rem;
     text-decoration: none;
     text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .banner__container {
+        left: 5%;
+    }
+
+    .banner__botao {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
 }

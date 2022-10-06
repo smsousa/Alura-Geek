@@ -1,10 +1,13 @@
 .produtos {
-    padding: 0 8rem;
     color: var(--cor-texto-secao);
+    margin: 4rem 7rem;
 }
 
 .produtos__secao {
-    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3rem;
 }
 
 .produtos__container {
@@ -26,10 +29,15 @@
     text-decoration: none;
 }
 
+.produtos__link img {
+    margin-left: .5rem;
+    vertical-align: top;
+    width: 13px;
+}
+
 .produtos__lista {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .produtos__item-titulo {
@@ -48,4 +56,26 @@
     font-weight: 700;
     font-size: 16px;
     text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .produtos {
+        margin: 2rem;
+    }
+
+    .produtos__titulo {
+        font-size: 22px;
+    }
+
+    .produtos__item-img {
+        width: 164px;
+    }
+
+
+    .ultimos {
+        display: none;
+    }
+
+
 }
