@@ -33,11 +33,32 @@
 
 @media screen and (max-width: 1024px) {
 
-  
+    .cabecalho {
+        padding: 1em 2em;
+        justify-content: space-between;
+    }
 
+    .cabecalho__imagem {
+        width: 100px;
+    }
+
+    .cabecalho__pesquisa {
+        width: 35vw;
+    }
 }
 
 @media screen and (max-width: 425px) {
 
+    .cabecalho__pesquisa {
+        display: none;
+    }
+
+    .cabecalho__botao-lupa {
+        display: block;
+    }
+
+    .cabecalho__botao-lupa span::before {
+        content: url("../img/Icone-pesquisa.svg");
+    }
  
 }

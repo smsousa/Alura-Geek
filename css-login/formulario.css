@@ -29,7 +29,27 @@
     background-color: var(--azul-botao);
     color: var(--branco);
     font-size: 18px;
+    font-weight: 600;
     border: none;
     width: 25vw;
     padding: 1rem 0;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .formulario-central {
+        width: 40vw;
+    }
+
+    .formulario__botao {
+        max-width: 110px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .formulario-central {
+        width: 75vw;
+    }
 }

@@ -79,12 +79,47 @@
 
 @media screen and (max-width: 1024px) {
 
-   
 
+   .rodape__imagem {
+        display: none;
+    }
+
+    .rodape__imagem-responsivo {
+        display: inline-block;
+        margin-bottom: 1em;
+    }
+
+    .campo-rodape {
+        width: 50vw;
+    }
+
+    .contato__botao {
+        width: 35vw;
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 425px) {
 
-    
+    .rodape {
+        display: block;
+        padding: 1em;
+        text-align: center;
+    }
 
+    .rodape__item:last-child {
+        margin-bottom: 2em;
+    }
+
+    .contato {
+        align-items: flex-start;
+    }
+
+    .campo-rodape {
+        width: 80vw;
+    }
+
+    .contato__botao {
+        width: 45vw;
+    }
 }
