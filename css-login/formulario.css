@@ -1,0 +1,35 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.formulario__titulo {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.formulario-central {
+    width: 25vw;
+    padding: 1rem 0;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 1px var(--cinza-borda);
+    margin: .5rem 0 1rem;
+}
+
+.formulario-central::placeholder {
+    font-family: var(--fonte-padrao);
+    font-weight: 400;
+}
+
+.formulario__botao {
+    background-color: var(--azul-botao);
+    color: var(--branco);
+    font-size: 18px;
+    border: none;
+    width: 25vw;
+    padding: 1rem 0;
+}

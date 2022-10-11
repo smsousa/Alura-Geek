@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
-    padding: 3em 0;
+    padding: 4em 0;
 }
 
 .rodape__imagem-responsivo {
@@ -11,7 +11,7 @@
 }
 
 .rodape__item {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .rodape__link {
@@ -31,15 +31,15 @@
 
 .contato__nome {
     margin: 0.5rem 0 1rem;
-}
+} 
 
 .contato__mensagem {
-    height: 82px;
+    height: 10vh;
 }
 
-.campo {
-    width: 560px;
-    padding: .75rem .5rem;
+.campo-rodape {
+    width: 35vw;
+    padding: 1rem .5rem;
     border: none;
     border-radius: 4px;
     margin-bottom: 1rem;
@@ -47,19 +47,19 @@
     position: relative;
 }
 
-.contato__botao[type=submit] {
-    font-family: var(--fonte-padrao);
-}
-
-.campo::placeholder {
+.campo-rodape::placeholder {
     font-family: var(--fonte-padrao);
     position: absolute;
     top: 10px;
     left: 10px;
  }
 
+.contato__botao[type=submit] {
+    font-family: var(--fonte-padrao);
+}
+
 .contato__botao {
-    width: 165px;
+    width: 12vw;
     padding: 1rem;
     background-color: var(--azul-botao);
     border: none;
@@ -79,56 +79,12 @@
 
 @media screen and (max-width: 1024px) {
 
-    .rodape {
-        padding: 2rem 0;
-    }
-
-    .rodape__imagem {
-        display: none;
-    }
-
-    .rodape__imagem-responsivo {
-        display: block;
-    }
-
-    .rodape__item {
-        margin-top: 2rem;
-    }
-
-    .contato {
-        margin-left: 3rem;
-    }
-
-    .campo {
-        width: 85vw;
-        max-width: 434px;
-    }
+   
 
 }
 
 @media screen and (max-width: 425px) {
 
-    .rodape {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .rodape__lista, .rodape__imagem-responsivo {
-        display: inline-block;
-        text-align: center;
-    }
-
-    .rodape__item:last-child {
-        margin-bottom: 2rem;
-    }
-
-    .contato {
-        margin-left: 0;
-    }
-
-    .campo {
-       max-width: 85vw;
-        height: 56px;
-    }
+    
 
 }

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Login</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css-login/header.css">
+    <link rel="stylesheet" href="css-login/formulario.css">
+    <link rel="stylesheet" href="css-login/footer.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__container">
+            <img src="img/Logo.svg" alt="Logomarca AluraGeek" class="cabecalho__imagem">
+            <input type="search" name="pesquisa" class="cabecalho__pesquisa" placeholder="O que deseja encontrar?">
+        </div>
+        <a href="#" class="cabecalho__botao-lupa"><span></span></a>
+    </header>
+
+    <main>
+        <section>
+            <form class="formulario">
+                <h1 class="formulario__titulo">Iniciar Sessão</h1>
+                <input type="email" name="" id="" class="formulario__email formulario-central" placeholder="Escreva seu email">
+                <input type="password" name="" id="" class="formulario__senha formulario-central" placeholder="Escreva sua senha">
+                <button type="submit" class="formulario__botao">Entrar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <section class="rodape">
+            <img src="img/Logo.svg" alt="Logomarca AluraGeek" class="rodape__imagem">
+            <ul class="rodape__lista">
+                <img src="img/Logo.svg" alt="Logomarca AluraGeek" class="rodape__imagem-responsivo">
+                <li class="rodape__item"><a href="#" class="rodape__link">Quem somos nós</a></li>
+                <li class="rodape__item"><a href="#" class="rodape__link">Política de privacidade</a></li>
+                <li class="rodape__item"><a href="#" class="rodape__link">Programa fidelidade</a></li>
+                <li class="rodape__item"><a href="#" class="rodape__link">Nossas lojas</a></li>
+                <li class="rodape__item"><a href="#" class="rodape__link">Quero ser franqueado</a></li>
+                <li class="rodape__item"><a href="#" class="rodape__link">Anuncie aqui</a></li>
+            </ul>
+            <form class="contato">
+                <h3 class="contato__titulo">Fale conosco</h3>
+                <input type="text" id="nome" class="contato__nome campo-rodape" placeholder="Nome">
+                <textarea id="texto" class="contato__mensagem campo-rodape" placeholder="Escreva sua mensagem"></textarea>
+                <input type="submit" value="Enviar mensagem" class="contato__botao">
+            </form>
+        </section>
+        <section>
+            <p class="rodape__desenvolvedor"><small>Desenvolvido por Stéfano<br>2022</small></p>
+        </section>
+    </footer>
+</body>
+</html>

@@ -69,13 +69,24 @@
     }
 
     .produtos__item-img {
-        width: 164px;
+        max-width: 160px;
     }
-
 
     .ultimos {
         display: none;
     }
+}
 
+@media screen and (max-width: 425px) {
+    .meio {
+        display: none;
+    }
 
+    .produtos {
+        margin: 1rem;
+    }
+
+    .produtos__item-img {
+        max-width: 145px;
+    }
 }

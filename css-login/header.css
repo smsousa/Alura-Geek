@@ -1,0 +1,43 @@
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 0 1.5rem 8rem;
+}
+
+.cabecalho__container {
+    display: flex;
+    align-items: center;
+    
+}
+
+.cabecalho__pesquisa {
+    background-color: var(--cinza-claro);
+    width: 30vw;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 1.5rem;
+    padding-left: 1rem;
+}
+
+.cabecalho__pesquisa::placeholder {
+    background: url("/img/Icone-pesquisa.svg") right / auto no-repeat;
+    color: var(--cinza-placeholder);
+    font-family: var(--fonte-padrao);
+}
+
+.cabecalho__botao-lupa {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+  
+
+}
+
+@media screen and (max-width: 425px) {
+
+ 
+}

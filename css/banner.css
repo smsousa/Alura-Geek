@@ -1,6 +1,8 @@
 .banner {
-    background: url("../img/banner-image.png") center / cover no-repeat;
-    height: 352px;
+    background: url("../img/banner-image.png") center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
     color: var(--branco);
     position: relative;
 }
@@ -34,6 +36,10 @@
 
 @media screen and (max-width: 1024px) {
     
+    .banner {
+        height: 55vh;
+    }
+
     .banner__container {
         left: 5%;
     }
@@ -41,6 +47,19 @@
     .banner__botao {
         font-weight: 600;
         font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .banner__titulo {
+        font-size: 22px;
+    }
+
+    .banner__descricao {
+        font-size: 14px;
+        font-weight: 600;
     }
 
 }
